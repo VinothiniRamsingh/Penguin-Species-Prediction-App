@@ -29,4 +29,4 @@
        6. Matplotlib / Seaborn – for data visualization (optional).
 
    # 🌐 Live Demo App:
-   https://Penguin-species-prediction-app25.streamlit.app/
+   [https://Penguin-species-prediction-app25.streamlit.app/](https://penguin-species-prediction-app.streamlit.app/)
