@@ -14,5 +14,19 @@
    6. Sex (Male/Female)
    7. Species (target variable)
 
-3. **ML-Demo App**
+   # 💻 How It Works:
+     1. User inputs penguin measurements in the Streamlit web app.
+     2. The app loads the trained ML model. 
+     3. Inputs are converted into numerical form and fed to the model.
+     4. The model predicts and displays the penguin species instantly.
+  
+   # ⚙️ Technologies Used
+       1. Python 3.x.
+       2. Streamlit – for frontend and deployment.
+       3. Pandas & NumPy – for data processing.
+       4. Scikit-learn – for machine learning model building.
+       5. Joblib – for model serialization.
+       6. Matplotlib / Seaborn – for data visualization (optional).
+
+   # **ML-Demo App**
    https://Penguin-species-prediction-app25.streamlit.app/
