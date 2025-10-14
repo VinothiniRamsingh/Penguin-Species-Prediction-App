@@ -5,7 +5,7 @@
 
 3. This app demonstrates how machine learning models can be trained, deployed, and used interactively for predictions in a simple and intuitive way.
 
-   # Key features:
+   # 🧾 Key features:
    1. Island (categorical)
    2. Bill length (mm)
    3. Bill depth (mm)
@@ -20,7 +20,7 @@
      3. Inputs are converted into numerical form and fed to the model.
      4. The model predicts and displays the penguin species instantly.
   
-   # ⚙️ Technologies Used
+   # ⚙️ Technologies Used:
        1. Python 3.x.
        2. Streamlit – for frontend and deployment.
        3. Pandas & NumPy – for data processing.
@@ -28,5 +28,5 @@
        5. Joblib – for model serialization.
        6. Matplotlib / Seaborn – for data visualization (optional).
 
-   # **ML-Demo App**
+   # 🌐 Live Demo App:
    https://Penguin-species-prediction-app25.streamlit.app/
