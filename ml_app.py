@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 st.title('🤖 Penguin Species Prediction App') 
 
-st.info("This is app builds as machine Learning model!")
+st.info("This app will predict the species of the penguin!")
 
 with st.expander('Data'):
   st.write('**Raw data**')
@@ -130,4 +130,5 @@ st.markdown(
       """,
       unsafe_allow_html=True
 )
+
 
