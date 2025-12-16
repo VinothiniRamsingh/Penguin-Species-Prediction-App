@@ -3,9 +3,9 @@ import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
-st.title('🤖 Penguin Species Prediction App') 
+st.title('🐧 Penguin Species Prediction App') 
 
-st.info("This app will predict the species of the penguin!")
+st.info("This app will predict the species of the penguin")
 
 with st.expander('Data'):
   st.write('**Raw data**')
@@ -120,15 +120,52 @@ st.dataframe(df_prediction_proba,
 penguins_species = np.array(['Adelie', 'Chinstrap', 'Gentoo'])
 st.success(str(penguins_species[prediction][0])) 
 
+
 st.markdown(
-      """
-      <style>
-      [data-testid="stSidebar"] {
-          background-color: #556B2F;
-      }
-      </style>
-      """,
-      unsafe_allow_html=True
+    """
+    <style>
+    /* Sidebar background */
+    [data-testid="stSidebar"] {
+        background-color: #556B2F;
+    }
+
+    /* Sidebar titles, labels */
+    [data-testid="stSidebar"] h1,
+    [data-testid="stSidebar"] h2,
+    [data-testid="stSidebar"] h3,
+    [data-testid="stSidebar"] label,
+    [data-testid="stSidebar"] span {
+        color: white !important;
+    }
+
+    /* Slider value text */
+    [data-testid="stSidebar"] .stSlider span {
+        color: white !important;
+    }
+
+    /* Selected value inside selectbox */
+    [data-testid="stSidebar"] .stSelectbox div[data-baseweb="select"] span {
+        color: white !important;
+    }
+
+    /* Text inside input boxes */
+    [data-testid="stSidebar"] input {
+        color: white !important;
+    }
+
+    /* Dropdown menu items (opened list) */
+    div[data-baseweb="menu"] span {
+        color: black !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
 )
+
+
+
+
+
+
 
 
