@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
-st.title('🐧 Penguin Species Prediction App') 
+st.title('🐧 Penguin Species Predictor') 
 
 st.info("This app will predict the species of the penguin")
 
@@ -161,6 +161,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
 
